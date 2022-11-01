@@ -1,11 +1,18 @@
-
+import NavHero from "./compnents/navhero";
+import Footer from "./compnents/footer";
+import FeatureSection from "./compnents/featuresection";
+import CTA from "./compnents/cta";
+import Testimonial from "./compnents/testimonial";
 
 export default function App() {
   return (
-    <main>
-      <h1 className="text-7xl">Alamo Welding</h1>
-      <p className="text-5xl text-fuchsia-500">Alamo Welding is a full service welding company.</p>
+    <>
+      <NavHero />
+      <FeatureSection />
+      <CTA />
+      <Testimonial />
 
-    </main>
+      <Footer />
+    </>
   );
 }
