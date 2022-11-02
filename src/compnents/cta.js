@@ -25,7 +25,7 @@ export default function CTA() {
                     </p>
                     <div className="mt-8">
                         <div className="inline-flex rounded-md shadow">
-                            <a href="/" className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50">
+                            <a href="/contact" className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50">
                                 Contact us today
                                 {/* <!-- Heroicon name: mini/arrow-top-right-on-square --> */}
                                 <svg className="-mr-1 ml-3 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
