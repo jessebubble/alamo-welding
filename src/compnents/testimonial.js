@@ -22,7 +22,7 @@ export default function Testimonial() {
                 <div className="relative lg:flex lg:items-center">
                     <div className="hidden lg:block lg:flex-shrink-0">
                         <img 
-                            className="h-64 w-64 rounded-full xl:h-80 xl:w-80" 
+                            className="h-64 w-64 rounded-full xl:h-80 xl:w-80 object-cover" 
                             src="./jupiter.jpg" 
                             alt=""
                         />

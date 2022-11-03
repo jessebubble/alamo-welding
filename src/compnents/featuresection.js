@@ -17,7 +17,7 @@ export default function FeatureSection() {
                         Ready to serve the alamo city
                     </h2>
                     <p className="mx-auto mt-4 max-w-3xl text-center text-xl text-gray-500">
-                        Born and raised in the alamo city, our mission is provide a creative platform for our team of welders while also giving our clients the best welding experience available to the growing San Antonio community.
+                        Born and raised in the alamo city, our mission is to provide a creative platform for our team of welders while also giving our clients the best welding experience available in the growing San Antonio community.
                     </p>
                 </div>
                 <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
@@ -90,7 +90,7 @@ export default function FeatureSection() {
                         </svg>
                         <img 
                             className="relative mx-auto w-96 rounded-lg shadow-lg" 
-                            src="./welder4.jpg" 
+                            src="./welder5.jpg" 
                             alt=""
                         />
                     </div>
@@ -158,7 +158,7 @@ export default function FeatureSection() {
                             </svg>
                             <img 
                                 className="relative mx-auto w-96 rounded-lg shadow-lg" 
-                                src="./welder1.jpg" 
+                                src="./welder4.jpg" 
                                 alt=""
                             />
                         </div>
