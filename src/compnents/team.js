@@ -90,7 +90,7 @@ export default function Team() {
                                 />
                                 <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                                     <div class="space-y-1 text-lg font-medium leading-6">
-                                        <h3 class="text-white">Anthony </h3>
+                                        <h3 class="text-white">Anthony Climaco </h3>
                                         <p class="text-indigo-400">Commercial Team Lead</p>
                                     </div>
                                     <div role="list" class="flex justify-center space-x-5">
@@ -123,7 +123,7 @@ export default function Team() {
                                 />
                                 <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                                     <div class="space-y-1 text-lg font-medium leading-6">
-                                        <h3 class="text-white">Fernando</h3>
+                                        <h3 class="text-white">Fernando Martinez</h3>
                                         <p class="text-indigo-400">Custom Project Team Lead</p>
                                     </div>
                                     <div role="list" class="flex justify-center space-x-5">
@@ -156,7 +156,7 @@ export default function Team() {
                                 />
                                 <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                                     <div class="space-y-1 text-lg font-medium leading-6">
-                                        <h3 class="text-white">Javier</h3>
+                                        <h3 class="text-white">Javier Martinez</h3>
                                         <p class="text-indigo-400">Licensed Welder</p>
                                     </div>
                                     <div role="list" class="flex justify-center space-x-5">
@@ -189,7 +189,7 @@ export default function Team() {
                                 />
                                 <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                                     <div class="space-y-1 text-lg font-medium leading-6">
-                                        <h3 class="text-white">Alex</h3>
+                                        <h3 class="text-white">Alex Velasquez</h3>
                                         <p class="text-indigo-400">Licensed Welder</p>
                                     </div>
                                     <div role="list" class="flex justify-center space-x-5">
