@@ -3,7 +3,7 @@
 export default function ServicesHero() {
     return (
         <>
-        <main class="bg-white lg:-mt-10 lg:pb-3">
+        <main class="bg-white lg:-mt-20">
             <div aria-hidden="true" class="relative">
                 <img 
                     src="service1.jpg" 
@@ -44,7 +44,48 @@ export default function ServicesHero() {
             </div>
         </main>
 
-        <main class="bg-white lg:-mt-10">
+        <main class="bg-white">
+            <div aria-hidden="true" class="relative">
+                <img 
+                    src="service3.jpg" 
+                    alt="" 
+                    class="h-96 w-full object-cover object-center"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-white"></div>
+            </div>
+            <div class="relative mx-auto -mt-12 max-w-7xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
+                <div class="mx-auto max-w-2xl text-center lg:max-w-4xl">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                        Multi-Family Dwellings
+                    </h2>
+                    <p class="mt-4 text-gray-500">
+                        We offer a wide range of services for multi family dwellings. From welding to custom fabrication, let alamo welding bring your vision to life.
+                    </p>
+                </div>
+                <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:max-w-none lg:grid-cols-3 lg:gap-x-8">
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">Balcony rails and staircases</dt>
+                        <dd class="mt-2 text-sm text-gray-500">
+                            We can build custom balcony rails and staircases for multi-family dwellings to add security and style.
+                        </dd>
+                    </div>
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">Multi-Family fencing</dt>
+                        <dd class="mt-2 text-sm text-gray-500">
+                            We can build custom fencing for multi-family dwellings to add security and style.
+                        </dd>
+                    </div>
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">Multi-Family carports</dt>
+                        <dd class="mt-2 text-sm text-gray-500">
+                            We can build custom carports for multi-family dwellings to add security and style.
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </main>
+
+        <main class="bg-white">
             <div aria-hidden="true" class="relative">
                 <img 
                     src="service2.jpg" 
@@ -80,47 +121,6 @@ export default function ServicesHero() {
                         <dt class="font-medium text-gray-900">Staircases and railings</dt>
                         <dd class="mt-2 text-sm text-gray-500">
                             Interior and exterior staircases or railings can add an aesthetic charm to your business and add a more modern look.
-                        </dd>
-                    </div>
-                </dl>
-            </div>
-        </main>
-
-        <main class="bg-white lg:-mt-10">
-            <div aria-hidden="true" class="relative">
-                <img 
-                    src="service3.jpg" 
-                    alt="" 
-                    class="h-96 w-full object-cover object-center"
-                />
-                <div class="absolute inset-0 bg-gradient-to-t from-white"></div>
-            </div>
-            <div class="relative mx-auto -mt-12 max-w-7xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
-                <div class="mx-auto max-w-2xl text-center lg:max-w-4xl">
-                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        Multi-Family Dwellings
-                    </h2>
-                    <p class="mt-4 text-gray-500">
-                        We offer a wide range of services for multi family dwellings. From welding to custom fabrication, let alamo welding bring your vision to life.
-                    </p>
-                </div>
-                <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:max-w-none lg:grid-cols-3 lg:gap-x-8">
-                    <div class="border-t border-gray-200 pt-4">
-                        <dt class="font-medium text-gray-900">Balcony rails and staircases</dt>
-                        <dd class="mt-2 text-sm text-gray-500">
-                            We can build custom balcony rails and staircases for multi-family dwellings to add security and style.
-                        </dd>
-                    </div>
-                    <div class="border-t border-gray-200 pt-4">
-                        <dt class="font-medium text-gray-900">Multi-Family fencing</dt>
-                        <dd class="mt-2 text-sm text-gray-500">
-                            We can build custom fencing for multi-family dwellings to add security and style.
-                        </dd>
-                    </div>
-                    <div class="border-t border-gray-200 pt-4">
-                        <dt class="font-medium text-gray-900">Multi-Family carports</dt>
-                        <dd class="mt-2 text-sm text-gray-500">
-                            We can build custom carports for multi-family dwellings to add security and style.
                         </dd>
                     </div>
                 </dl>

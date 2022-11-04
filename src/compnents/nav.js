@@ -26,7 +26,7 @@ export default function Nav() {
                                 </a>
                             </div>
                             <div className="hidden space-x-10 md:ml-10 md:flex">
-                                <a href="/services" className="font-medium text-orange-500 hover:text-gray-300">Services</a>
+                                <a href="/services" className="font-medium text-white hover:text-gray-300">Services</a>
                                 <a href="/projects" className="font-medium text-white hover:text-gray-300">Custom Projects</a>
                                 <a href="/contact" className="font-medium text-white hover:text-gray-300">Contact Us</a>
                                 <a href="/about" className="font-medium text-white hover:text-gray-300">About</a>
