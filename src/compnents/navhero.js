@@ -45,13 +45,15 @@ export default function NavHero() {
                     --> */}
                     <div className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden">
                         <div className="overflow-hidden rounded-lg bg-slate-900 shadow-md ring-1 ring-black ring-opacity-5">
-                            <div className="flex flex-col items-center justify-center px-5 pt-4">
+                            <div className="w-full flex flex-col items-center justify-start px-5 pt-4">
                                 <div>
-                                    <Logo className='w-60 h-full'/> 
+                                    <a href="/">
+                                        <Logo className='w-60 h-full'/> 
+                                    </a>
                                 </div>
-                                <div className="-mr-2">
+                                <div className="-mr-2 flex items-center">
                                     <Menu>
-                                        <Menu.Button type="button" className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                        <Menu.Button type="button" className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100">
                                             <span className="sr-only">Open main menu</span>
                                             {/* <!-- Heroicon name: outline/bars-3 --> */}
                                             <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -66,23 +68,23 @@ export default function NavHero() {
                                             leaveFrom='opacity-100 scale-100'
                                             leaveTo='opacity-0 scale-95'
                                         >
-                                            <Menu.Items className='flex flex-col items-start space-y-1 px-2 pt-2 pb-3 '>
-                                                <Menu.Item className='block rounded-md px-3 py-2 text-base font-medium text-gray-100 hover:bg-gray-50 hover:text-orange-300'>
+                                            <Menu.Items className='flex flex-col items-start space-y-1 px-2 pt-2 pb-3'>
+                                                <Menu.Item className='rounded-md px-3 py-2 text-base font-medium text-gray-100 hover:bg-gray-50 hover:text-orange-300'>
                                                     {({ active }) => (
                                                         <a href="/services" className={`${active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'}`}>Services</a>
                                                     )}
                                                 </Menu.Item>
-                                                <Menu.Item className='block rounded-md px-3 py-2 text-base font-medium text-gray-100 hover:bg-gray-50 hover:text-gray-300'>
+                                                <Menu.Item className='rounded-md px-3 py-2 text-base font-medium text-gray-100 hover:bg-gray-50 hover:text-gray-300'>
                                                     {({ active }) => (
                                                         <a href="/projects" className={`${active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'}`}>Custom Projects</a>
                                                     )}
                                                 </Menu.Item>
-                                                <Menu.Item className='block rounded-md px-3 py-2 text-base font-medium text-gray-100 hover:bg-gray-50 hover:text-gray-300'>
+                                                <Menu.Item className='rounded-md px-3 py-2 text-base font-medium text-gray-100 hover:bg-gray-50 hover:text-gray-300'>
                                                     {({ active }) => (
                                                         <a href="/contact" className={`${active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'}`}>Contact Us</a>
                                                     )}
                                                 </Menu.Item>
-                                                <Menu.Item className='block rounded-md px-3 py-2 text-base font-medium text-gray-100 hover:bg-gray-50 hover:text-gray-300'>
+                                                <Menu.Item className='rounded-md px-3 py-2 text-base font-medium text-gray-100 hover:bg-gray-50 hover:text-gray-300'>
                                                     {({ active }) => (
                                                         <a href="/about" className={`${active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'}`}>About</a>
                                                     )}
@@ -101,7 +103,7 @@ export default function NavHero() {
                         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                             <div className="px-4 sm:px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
                                 <div>
-                                    <a href="/" className="inline-flex items-center rounded-full bg-gray-900 p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base">
+                                    <a href="/careers" className="inline-flex items-center rounded-full bg-gray-900 p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base">
                                         <span className="rounded-full bg-indigo-500 px-3 py-0.5 text-sm font-semibold leading-5 text-white">We're hiring</span>
                                         <span className="ml-4 text-sm">Visit our careers page</span>
                                         {/* <!-- Heroicon name: mini/chevron-right --> */}

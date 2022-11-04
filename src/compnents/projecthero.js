@@ -2,7 +2,7 @@
 
 export default function ProjectHero() {
     return (
-        <main className="bg-white">
+        <main className="bg-white relative lg:-mt-10">
             <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl ">
                 <div className="relative overflow-hidden rounded-lg lg:h-96 mb-10 lg:mb-16">
                     <div className="absolute inset-0">

@@ -51,9 +51,9 @@ export default function Nav() {
                                         <Logo className='w-60 h-full'/> 
                                     </a>
                                 </div>
-                                <div className="-mr-2">
+                                <div className="-mr-2 flex items-center">
                                     <Menu>
-                                        <Menu.Button type="button" className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                        <Menu.Button type="button" className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100">
                                             <span className="sr-only">Open main menu</span>
                                             {/* <!-- Heroicon name: outline/bars-3 --> */}
                                             <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -68,7 +68,7 @@ export default function Nav() {
                                             leaveFrom='opacity-100 scale-100'
                                             leaveTo='opacity-0 scale-95'
                                         >
-                                            <Menu.Items className='flex flex-col items-start space-y-1 px-2 pt-2 pb-3 '>
+                                            <Menu.Items className='flex flex-col items-start space-y-1 px-2 pt-2 pb-3'>
                                                 <Menu.Item className='block rounded-md px-3 py-2 text-base font-medium text-gray-100 hover:bg-gray-50 hover:text-orange-300'>
                                                     {({ active }) => (
                                                         <a href="/services" className={`${active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'}`}>Services</a>

@@ -7,6 +7,7 @@ import Services from './pages/services';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
 import About from './pages/about';
+import CareersPage from './pages/careers';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +20,7 @@ root.render(
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/careers" element={<CareersPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

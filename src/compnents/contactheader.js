@@ -2,7 +2,7 @@
 
 export default function ContactHeader() {
     return (
-        <main class="bg-white ">
+        <main class="bg-white lg:-mt-10 ">
             {/* <!-- Header --> */}
             <div class="relative bg-gray-900 pb-32">
                 <div class="absolute inset-0">
@@ -39,7 +39,7 @@ export default function ContactHeader() {
                                     Residential
                                 </h3>
                                 <p class="mt-4 text-base text-gray-500">
-                                    Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.
+                                    We offer a wide range of services for residential clients. From small repairs to complete home renovations, we can add the style and functionality you're looking for.
                                 </p>
                             </div>
                             <div class="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
@@ -58,7 +58,7 @@ export default function ContactHeader() {
                                 Commercial
                             </h3>
                             <p class="mt-4 text-base text-gray-500">
-                                Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.
+                                We offer a wide range of services for our commercial clients. Let us add the safety, security and style you need for your business.
                             </p>
                         </div>
                         <div class="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
@@ -77,7 +77,7 @@ export default function ContactHeader() {
                                 Custom Projects
                             </h3>
                             <p class="mt-4 text-base text-gray-500">
-                                Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.
+                                Let's have fun, get creative and build something together. We can help you with your custom project from start to finish and bring your idea to life.
                             </p>
                         </div>
                         <div class="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
