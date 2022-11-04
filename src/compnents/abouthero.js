@@ -44,10 +44,14 @@ export default function AboutHero() {
                                 <span className="sr-only">Watch our video to learn more</span>
                                     <video
                                         autoPlay
-                                        loop
                                         muted
-                                        className="w-full" 
-                                        src="./welder.mp4" >
+                                        loop controls
+                                        preload="auto"
+                                        className="w-full">
+                                        <source
+                                            src="./welder.mp4"
+                                            type="video/mp4"
+                                        />
                                     </video>
                             </button>
                         </div>
