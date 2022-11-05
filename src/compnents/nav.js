@@ -4,7 +4,7 @@ import { Menu, Transition } from '@headlessui/react'
 export default function Nav() {
     return (
 
-        <main className="relative bg-black">
+        <main className="relative bg-slate-900">
             <div className="hidden sm:absolute sm:inset-0 sm:block" aria-hidden="true">
                 <svg className="absolute bottom-0 right-0 mb-48 translate-x-1/2 transform text-white lg:top-0 lg:mt-28 lg:mb-0 xl:translate-x-0 xl:transform-none" width="364" height="384" viewBox="0 0 364 384" fill="none">
                     <defs>
